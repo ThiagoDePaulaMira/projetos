@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button connect the metamask</title>
+</head>
+<body>
+    <script>
+        const connect = () => {
+        if (typeof window.ethereum !== 'undefined') {
+            ethereum.request({ method: 'eth_requestAccounts' });
+        }
+    }
+    </script>
+    <button id="connnectButton" onclick="connect()">connect</button>
+</body>
+</html>
