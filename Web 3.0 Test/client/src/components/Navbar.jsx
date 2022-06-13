@@ -32,7 +32,7 @@ const Navbar = () => {
             <ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
                 <div className='flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full'>
                     <a className='text-white text-base text-center mx-3 cursor-pointer' href='/mint/'>Mint</a>
-                    <p className='text-white text-base text-center mx-3 cursor-pointer'>Exchange</p>
+                    <a className='text-white text-base text-center mx-3 cursor-pointer' href='/sidebar/'>Sidebar</a>
                     <p className='text-white text-base text-center mx-3 cursor-pointer'>Tutorials</p>
                     <a className='text-white text-base text-center mx-3 cursor-pointer' href='/about/'>About</a>
                 </div>

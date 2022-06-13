@@ -17,6 +17,7 @@ export default defineConfig({
         main: resolve(root, '', 'index.html'),
         about: resolve(root, 'about', 'index.html'),
         mint: resolve(root, 'mint', 'index.html'),
+        sidebar: resolve(root, 'sidebar', 'index.html')
       }
     }
   }
