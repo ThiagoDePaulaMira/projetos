@@ -32,7 +32,7 @@ const Sidebar = () => {
                 {item.title}
               </p>
               {item.links.map((link) => (
-                <a href={`/${link.name}/`}
+                <a href={`/${link.name}`}
                 key={link.name}
                 onClick={() => {}}
                 className='flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-md dark:hover:text-black hover:bg-light-gray m-2'

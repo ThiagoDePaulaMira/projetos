@@ -1,9 +1,9 @@
 header {
     height: 100vh;
     padding-top: 7rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    overflow: hidden;
+    width: 75%;
+    margin: 0 auto;
+    
 }
 
 .header__container {
@@ -40,13 +40,13 @@ header {
 .me {
     background: var(--color-primary);
     width: 22rem;
-    height: 40.13rem;
+    height: 33rem;
     position: absolute;
     left: calc( 50% - 11rem );
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 0rem 12rem 0rem;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 7rem 1.5rem 1.5rem 1.5rem;
 }
 
 .scroll__down {
